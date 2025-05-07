@@ -4,8 +4,8 @@ using static UnityEngine.UI.GridLayoutGroup;
 
 public class MazeGenerator : MonoBehaviour
 {
-    public int width = 62;  // Šï”„§
-    public int height = 62;
+    public int width = 41;  // Šï”„§
+    public int height = 41;
     public GameObject wallPrefab;
     public GameObject floorPrefab;
     public float cellSize = 2f;
