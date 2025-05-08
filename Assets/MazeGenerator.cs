@@ -26,7 +26,7 @@ public class MazeGenerator : MonoBehaviour
     public Vector2Int GetGoalPos() => goalPos;
     private List<Vector2Int> corners = new List<Vector2Int>();
 
-    public ConnectButton connectButton;
+    //public ConnectButton connectButton;
 
     private void Awake()
     {
@@ -116,7 +116,7 @@ public class MazeGenerator : MonoBehaviour
             // PlayerController‚ğ’Ç‰Á‚µAMazeGenerator‚ÌQÆ‚ğ“n‚·
             PlayerController playerController = player.AddComponent<PlayerController>();
             playerController.mazeGen = this;
-            connectButton.target = player;
+            //connectButton.target = player;
             
         }
 
