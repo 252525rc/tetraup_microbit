@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\CameraChange.cs" />
     <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\ConnectButton.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\UIManager.cs" />
