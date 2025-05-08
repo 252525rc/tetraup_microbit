@@ -370,3 +370,7 @@ FodyWeavers.xsd
 [Bb]uilds/
 [Ll]ogs/
 MemoryCaptures/
+
+
+!docs/Build/
+!docs/Build/**
