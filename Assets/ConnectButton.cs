@@ -15,6 +15,19 @@ public class ConnectButton : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void Disconnect(string targetName);
 
+    public void Update()
+    {
+        if (!IsConnected(target.name))
+        {
+            Connect(target.name);
+            GetComponentInChildren<Text>().text = "Disconnect";
+        }
+        else
+        {
+            Disconnect(target.name);
+            GetComponentInChildren<Text>().text = "Connect";
+        }
+    }
     public void OnClick()
     {
         if (!IsConnected(target.name))
